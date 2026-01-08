@@ -6440,7 +6440,7 @@ class Launch:
     """Represents all data required for a kernel launch so that launches can be replayed quickly.
 
     Users should not directly instantiate this class, instead use
-    ``wp.launch(...,record_cmd=True)`` to record a launch.
+    ``wp.launch(..., record_cmd=True)`` to record a launch.
     """
 
     def __init__(
